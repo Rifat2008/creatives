@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'MYRIADPROREGULAR';
+	src: local('MYRIADPROREGULAR'), url('./fonts/MYRIADPROREGULAR.woff') format('woff');
+	font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('./fonts/Gotham-Book.ttf') format('truetype');     
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('./fonts/Gotham-Medium.ttf') format('truetype');     
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('./fonts/Gotham-Bold.ttf') format('truetype');     
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('./fonts/roboto-bold-condensed.ttf') format('truetype');     
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('./fonts/Roboto-Regular.ttf') format('truetype');     
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url('./fonts/OpenSans-Bold.ttf') format('truetype');     
+	font-style: normal;
+	font-weight: 300;
+}
