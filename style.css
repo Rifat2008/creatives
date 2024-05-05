@@ -169,8 +169,8 @@ header {
 }
 
 .menu-mobile__close {
-  width: 1em;
-  height: 1em;
+  width: 20px;
+  height: 20px;
   background-color: silver;
   clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
   position: absolute;
@@ -332,18 +332,19 @@ header {
 
 @media (max-width: 780px) {
   .creatives__inner {
-    padding-top: 190px;
-    min-height: 700px;
+    padding-top: 160px;
+    min-height: 650px;
   }
   .creatives__titles {
     margin-bottom: 50px;
   }
   .creatives__title {
+    transform: scale(0.8);
     margin-bottom: 15px;
    }
   .creatives__subtitle {
     font-size: 15px;
-    letter-spacing: 16px;
+    letter-spacing: 12px;
   }
   .scrolldown {
     gap: 15px;
@@ -354,8 +355,11 @@ header {
   }
 }
 
-@media (max-width: 660px) {
-  
+@media (max-width: 420px) {
+  .creatives__subtitle {
+    font-size: 14px;
+    letter-spacing: 10px;
+  }
 }
 
 .features {
@@ -806,15 +810,15 @@ header {
 
 @media (max-width: 460px) {
   .app-advantages-item-1 {
-    width: 300px;
+    width: 290px;
   }
   
   .app-advantages-item-2 {
-    width: 340px;
+    width: 320px;
   }
   
   .app-advantages-item-3 {
-    width: 380px;
+    width: 350px;
   }
 }
 
@@ -825,16 +829,23 @@ header {
   .app__subtitle {
     margin-bottom: 20px;
   }
+  .app__advantages {
+    font-size: 13px;
+  }
+  .app__advantages>* {
+    min-height: 30px;
+    padding: 8px 10px;
+  }
   .app-advantages-item-1 {
-    width: 260px;
+    width: 220px;
   }
   
   .app-advantages-item-2 {
-    width: 300px;
+    width: 250px;
   }
   
   .app-advantages-item-3 {
-    width: 340px;
+    width: 280px;
   }
 }
 
